@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MediCure</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , intial-scale=1.0">
+  <link rel="shortcut icon"  href="E:\sublime\project website\Doctor-Patient\img\favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+</head>
+<body>
+
+   <!----------------------------------------MAIN NAV BAR-------------------------------------> 
+   <div class="nav-main">
+        <ul>
+            <li ><a href="#"><i  style="margin-right: 10px;" class="fa fa-map-marker" aria-hidden="true"></i>Contact</a></li>
+            <li><a href="#"><i style="margin-right: 10px;" class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
+            <li><a href="#"><i  style="margin-right: 10px;" class="fa fa-user-md" aria-hidden="true"></i>Doctor</a></li>
+            <li ><a href="#solution">Solution</a></li>
+            <li ><a href="copy.html"><i style="margin-right: 10px;" class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li style="float: left;"><a href="login.html"><i class="fa fa-user-circle" style='font-size:24px;margin-right: 5px;' aria-hidden="true"></i></a></li> 
+            <li style="float: left;"><a href="patient.html">Patient</a></li>
+            <li style="float: left;"><a href="doctor.html"><i  style="margin-right: 10px;" class="fa fa-user-md" aria-hidden="true"></i>Doctor</a></li>
+          </ul>
+      </div>     
+<!---------------------------------------END OF MAIN NAV BAR-------------------------------------> 
+
+<!------------------------------------------LOGIN SECTION  ---------------------------------------->
+
+<div class="login-page">
+        <div class="form">
+            <!----
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>-->
+          <form action="login.php" method="POST" class="login-form">
+            <input type="text" name="username" placeholder="username"/>
+            <input type="password" name="Password" placeholder="password"/>
+            <button name="mySubmit">login</button>
+          </form>
+        </div>
+      </div>
+          
+
+
+  <!------------------------------------------END OF LOGIN SECTION  ---------------------------------------->
+
+
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+</body>
+</html>
