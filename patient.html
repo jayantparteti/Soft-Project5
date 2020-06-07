@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cust Electro Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , intial-scale=1.0">
+  <link rel="shortcut icon"  href="E:\sublime\project website\Doctor-Patient\img\favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+</head>
+<body>
+<!----------------------------------------MAIN NAV BAR-------------------------------------> 
+<div class="nav-main">
+    <ul>
+        <li ><a href="#"><i  style="margin-right: 10px;" class="fa fa-map-marker" aria-hidden="true"></i>Contact</a></li>
+        <li><a href="#"><i style="margin-right: 10px;" class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
+        <li><a href="#"><i  style="margin-right: 10px;" class="fa fa-user-md" aria-hidden="true"></i>Seller</a></li>
+        <li ><a href="#solution">Solution</a></li>
+        <li ><a href="copy.html"><i style="margin-right: 10px;" class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li style="float: left;"><a href="login.html"><i class="fa fa-user-circle" style='font-size:24px;margin-right: 5px;' aria-hidden="true"></i></a></li> 
+        <li style="float: left;"><a href="patient.html">Customer</a></li>
+        <li style="float: left;"><a href="doctor.html"><i  style="margin-right: 10px;" class="fa fa-user-md" aria-hidden="true"></i>Seller</a></li>
+      </ul>
+  </div>     
+<!---------------------------------------END OF MAIN NAV BAR-------------------------------------> 
+
+ <!-----------------------------------------FORM------------------------------------------------->
+<!----
+   <form>
+  <div class="container">
+    <div class="row">
+      
+    </div>
+
+    <label>First Name</label>
+    <input type="text" placeholder="Enter First Name">
+    <label>Last Name</label>
+    <input type="text" placeholder="Enter Last Name"><br>
+    <label>Select UserName</label>
+    <input type="text" placeholder="Enter UserName"><br>
+    <label>Select Password</label>
+    <input type="password" placeholder="Enter Password"><br>
+  </div>
+</form>
+-->
+<div class="register-form">
+<form action="patient.php" method="POST">
+  <fieldset><legend style="text-align: center;">Customer Registration</legend>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+          <label >First Name</label>
+          <input type="text" name="firstName" class="form-control"  placeholder="Enter First Name">
+        </div>
+  
+        <div class="form-group col-md-3">
+          <label>LastName</label>
+          <input type="text" name="lastName" class="form-control" placeholder="Enter LastName">
+        </div>
+     </div>  
+
+    <div class="form-row">
+      <div class="form-group col-md-3">
+        <label >Choose UserName</label>
+        <input type="text" name="userName" class="form-control"  placeholder="UserName">
+      </div>
+      <div class="form-group col-md-3">
+        <label >Choose Password</label>
+        <input type="password" name="Password" class="form-control" placeholder="Password">
+      </div>
+    </div>
+   
+    <div class="form-row">
+        <div class="form-group col-md-3">
+          <label >Email</label>
+          <input type="email" name="Email" class="form-control"  placeholder="Email">
+        </div>
+        <div class="form-group col-md-3">
+          <label >Phone Number</label>
+          <input type="number" name="PhoneNumber" class="form-control"  placeholder="Phone Number">
+        </div>
+    </div>   
+
+    <div class="form-group col-md-6">
+      <label>Address</label>
+      <input type="text" name="Address" class="form-control"  placeholder="1234 Main St">
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+          <label >Gender</label>
+          <select name="Gender" class="form-control">
+              <option name="Gender" value="f" selected>Female</option>
+              <option name="Gender" value="m">Male</option>
+            </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label >Age</label>
+          <input type="number" name="Age" class="form-control" placeholder="Enter Age">
+        </div>
+    </div>
+
+    <div class="form-group col-md-6">
+         <label>Preferences of product if Any....</label>
+         <textarea name="Disease" class="form-control" row="3"></textarea>
+    </div>   
+
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label><br>
+      </div>
+    </div>
+    <button type="submit" name="mySubmit" class="btn btn-primary">Sign in</button>
+    </fieldset>
+  </form>
+  </div>
+ <!-------------------------------------------END OF FORM----------------------------------------->
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+</body>
+</html>
